@@ -1,0 +1,11 @@
+# Create a virtual environment
+python -m venv venv
+
+# Activate the virtual environment (macOS/Linux)
+source venv/bin/activate
+
+# Install dependencies
+pip install flask scikit-learn numpy
+
+# Deactivate the virtual environment when done
+deactivate
